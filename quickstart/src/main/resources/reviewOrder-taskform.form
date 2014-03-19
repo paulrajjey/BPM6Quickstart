@@ -1,0 +1,71 @@
+
+<form id="327821115">
+<property name="subject" value=""/>
+<property name="name" value="reviewOrder-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="taskform_address" type="InputText" id="925717714">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/address"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="taskform_city" type="InputText" id="1561715566">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;city (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/city"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="taskform_description" type="InputText" id="1131355326">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;description (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/description"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="taskform_itemId" type="InputTextInteger" id="1238582291">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;itemId (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/itemId"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="taskform_name" type="InputText" id="759548531">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/name"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="taskform_price" type="InputTextBigDecimal" id="1547951626">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;price (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/price"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.math.BigDecimal"/>
+</field>
+<field position="6" name="taskform_quantity" type="InputTextInteger" id="1425524694">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;quantity (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/quantity"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="taskform_state" type="InputText" id="612312244">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;state (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/state"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="taskform_zip" type="InputText" id="920778865">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;zip (taskform)quot;"/>
+<property name="inputBinding" value="taskIn/zip"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="taskIn" name="#0000A0" type="dataModelerEntry" outId="" value="redhat.example.quickstart.PurchaseOrder" id="taskform"/>
+</form>
